@@ -1,0 +1,8 @@
+[build]
+  functions = "netlify/functions"
+  command = "npm install"
+
+[[redirects]]
+  from = "/slack/*"
+  to = "/.netlify/functions/slack/:splat"
+  status = 200
