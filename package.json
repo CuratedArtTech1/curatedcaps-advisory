@@ -1,0 +1,12 @@
+{
+  "name": "curatedcaps-advisory",
+  "version": "1.0.0",
+  "description": "Slack Bolt application for curatedcaps advisory",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.13.0"
+  }
+}
