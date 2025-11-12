@@ -4,7 +4,8 @@
   "description": "Slack Bolt application for curatedcaps advisory",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "echo \"no build necessary\""
   },
   "dependencies": {
     "@slack/bolt": "^3.13.0"
